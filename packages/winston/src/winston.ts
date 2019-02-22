@@ -1,5 +1,5 @@
 import { LogEntry } from "winston";
-import Transport from "winston-transport";
+import * as Transport from "winston-transport";
 
 import { Timber } from "@timberio/node";
 import { LogLevel } from "@timberio/types";
